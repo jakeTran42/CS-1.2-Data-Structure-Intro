@@ -42,4 +42,4 @@
 
 * [x] Generate sentence (nth order) - 3 points
 
-* [] Create Flask Web App - In progress
+* [ ] Create Flask Web App - In progress
