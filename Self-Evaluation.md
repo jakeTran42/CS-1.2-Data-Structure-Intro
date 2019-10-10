@@ -1,4 +1,4 @@
-## Linked List Implementation 21/32 Points (Passing)
+## [Linked List Implementation](https://github.com/jakeTran42/CS-1.2-Data-Structure-Intro/blob/master/Code/linkedlist.py) 21/32 Points (Passing)
 
 * [x] Lenth method and passes unit test - 3 points
 
@@ -14,7 +14,7 @@
 
 * [x] Time complexity analysis of best, worst, or average case - 2/3 points
 
-## Hash Table 24/36 Points (Passing)
+## [Hash Table](https://github.com/jakeTran42/CS-1.2-Data-Structure-Intro/blob/master/Code/hashtable.py) 24/36 Points (Passing)
 
 * [x] Values method and passes unit test - 3 points
 
@@ -32,7 +32,7 @@
 
 * [x] Time complexity analysis - 2/3 points
 
-## Tweet Gen 12/15 Points (Nearly complete)
+## [Tweet Gen](https://github.com/jakeTran42/CS-1.2-Data-Structure-Intro/tree/master/src) 12/15 Points (Nearly complete)
 
 * [x] Sample words by Frequency and its testing - 3 points
 
