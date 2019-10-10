@@ -1,4 +1,4 @@
-## Linked List Implementation
+## Linked List Implementation 21/32 Points (Passing)
 
 [x] Lenth method and passes unit test - 3 points
 
@@ -14,7 +14,7 @@
 
 [x] Time complexity analysis of best, worst, or average case - 2/3 points
 
-## Hash Table
+## Hash Table 24/32 Points (Passing)
 
 [x] Values method and passes unit test - 3 points
 
@@ -32,7 +32,7 @@
 
 [x] Time complexity analysis - 2/3 points
 
-## Tweet Gen
+## Tweet Gen 12/15 Points (Nearly complete)
 
 [x] Sample words by Frequency and its testing - 3 points
 
