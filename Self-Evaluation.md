@@ -16,21 +16,21 @@
 
 ## Hash Table 24/36 Points (Passing)
 
-[x] Values method and passes unit test - 3 points
+* [x] Values method and passes unit test - 3 points
 
-[x] Length method and passes unit test - 3 points
+* [x] Length method and passes unit test - 3 points
 
-[x] Contains method and passes unit test - 3 points
+* [x] Contains method and passes unit test - 3 points
 
-[x] Get method and passes unit test - 3 points
+* [x] Get method and passes unit test - 3 points
 
-[x] Set method and passes unit test - 3 points
+* [x] Set method and passes unit test - 3 points
 
-[x] Delete method and passes unit test - 3 points
+* [x] Delete method and passes unit test - 3 points
 
-[x] Passes unit test 100% - 3 points
+* [x] Passes unit test 100% - 3 points
 
-[x] Time complexity analysis - 2/3 points
+* [x] Time complexity analysis - 2/3 points
 
 ## Tweet Gen 12/15 Points (Nearly complete)
 
