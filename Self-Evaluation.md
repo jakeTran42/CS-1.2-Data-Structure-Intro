@@ -14,7 +14,7 @@
 
 [x] Time complexity analysis of best, worst, or average case - 2/3 points
 
-## Hash Table 24/32 Points (Passing)
+## Hash Table 24/36 Points (Passing)
 
 [x] Values method and passes unit test - 3 points
 
