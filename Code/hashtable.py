@@ -28,8 +28,9 @@ class HashTable(object):
     def keys(self):
         """Return a list of all keys in this hash table.
         TODO: Running time: O(???) Why and under what conditions?
-        
-        Average Case: O(n * l) == O(n*2), where n is the number of bucket and l is the length of ll in each bucket. 
+
+        Best Case O(n): If all buckets except for 1 is empty
+        Average Case: O(n * l), where n is the number of bucket and l is the length of ll in each bucket. 
         """
         # Collect all keys in each bucket
         all_keys = []
@@ -42,7 +43,8 @@ class HashTable(object):
         """Return a list of all values in this hash table.
         TODO: Running time: O(???) Why and under what conditions?
         
-        Average Case: O(n * l) == O(n*2), where n is the number of bucket and l is the length of ll in each bucket. 
+        Best Case O(n): If all buckets except for 1 is empty
+        Average Case: O(n * l), where n is the number of bucket and l is the length of ll in each bucket. 
         """
         # TODO: Loop through all buckets
         # TODO: Collect all values in each bucket
