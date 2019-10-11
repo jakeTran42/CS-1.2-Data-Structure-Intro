@@ -3,6 +3,19 @@ from dictogram import Dictogram
 from sample import weighted_random_choice
 from helper import read_textfile, convert_to_list
 
+'''Save text file to an array'''
+def read_textfile(text):
+    with open(text) as f:
+        data = f.read()
+    return data
+
+'''Convert String of text to a list of text'''
+def convert_to_list():
+    with open("sample_text.txt") as f:
+        data = f.read()
+    word_list = data.split()
+    return word_list
+
 class Markov(dict):
     def __init__(self, word_list=None, order=1):
         super(Markov, self).__init__()
@@ -52,11 +65,13 @@ class Markov(dict):
         return rand_string
 
 def main():
-    text = read_textfile("sample_text.txt")
-    txt_list = convert_to_list(text)
+    # text = read_textfile("sample_text.txt")
+    txt_list = convert_to_list()
     markov_chain = Markov(txt_list, 2)
     markov_chain.initiate_markov(txt_list)
     print(markov_chain.generate_sentence(15))
+
+    return markov_chain
 
 if __name__ == '__main__':
     main()
