@@ -10,8 +10,8 @@ def read_textfile(text):
     return data
 
 '''Convert String of text to a list of text'''
-def convert_to_list():
-    with open("sample_text.txt") as f:
+def convert_to_list(text):
+    with open(text, "r+", encoding="utf-8") as f:
         data = f.read()
     word_list = data.split()
     return word_list
@@ -66,7 +66,7 @@ class Markov(dict):
 
 def main():
     # text = read_textfile("sample_text.txt")
-    txt_list = convert_to_list()
+    txt_list = convert_to_list("sample_text.txt")
     markov_chain = Markov(txt_list, 2)
     markov_chain.initiate_markov(txt_list)
     print(markov_chain.generate_sentence(15))
